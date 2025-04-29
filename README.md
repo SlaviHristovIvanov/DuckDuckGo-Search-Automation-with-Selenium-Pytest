@@ -2,20 +2,6 @@
 
 This project demonstrates end-to-end UI test automation for the DuckDuckGo search engine using Selenium WebDriver, Pytest, and a Page Object Model (POM) design pattern. It is designed for clarity, extensibility, and configurability.
 
-Selenium/
-│
-├── pages/                # Page Object Models (POMs)
-│   ├── search.py         # DuckDuckGo search page interactions
-│   └── result.py         # DuckDuckGo results page interactions
-│
-├── tests/                # Test suite using pytest
-│   ├── test_search.py    # Parametrized UI search tests
-│   └── conftest.py       # Fixtures for browser setup/config loading
-│
-├── config.json           # Configuration for browser type and wait time
-├── Pipfile               # Project dependencies
-└── Pipfile.lock          # Locked dependencies
-
 * Features
 
 - Clean Page Object Model for test maintainability
